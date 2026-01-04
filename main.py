@@ -8,3 +8,5 @@ pre = Preprocessing(
 
 pre.data_pipeline()
 print(f"Data Frame:\n{pre.data}")
+
+from xgboost import XGBClassifier
