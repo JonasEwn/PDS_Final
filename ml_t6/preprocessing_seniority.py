@@ -378,7 +378,6 @@ class Preprocessing:
 
             row = {
                 "Seniority (Label 1)": label,
-
                 "num_prev_jobs": self.num_of_jobs(history),
                 "career_length_months": self.career_length(history, cutoff_ym),
                 "avg_prev_job_duration": self.avg_job_duration(history, cutoff_ym),
@@ -388,10 +387,8 @@ class Preprocessing:
                 "num_prev_employers": self.num_employers(history),
                 "job_switch_rate_per_year": self.job_switch_rate(history, cutoff_ym),
                 "avg_jobs_per_employer": self.avg_jobs_per_employer(history),
-
                 "prev_job_same_org_as_target": self.prev_job_same_org_as_target(person, history),
                 "num_prev_jobs_same_org_as_target": self.num_prev_jobs_same_org_as_target(person, history),
-
                 "num_active_jobs": self.num_active_jobs(person),
             }
 

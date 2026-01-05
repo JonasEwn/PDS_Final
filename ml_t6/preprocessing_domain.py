@@ -396,7 +396,6 @@ class PreprocessingDomain:
 
             row = {
                 "Department (Label 2)": label,
-
                 # Old features
                 "num_prev_jobs": self.num_of_jobs(history),
                 "career_length_months": self.career_length(history, cutoff_ym),
@@ -406,7 +405,6 @@ class PreprocessingDomain:
                 "std_prev_job_duration": self.std_job_duration(history, cutoff_ym),
                 "num_prev_employers": self.num_employers(history),
                 "job_switch_rate_per_year": self.job_switch_rate(history, cutoff_ym),
-
                 # New -> For Domain
                 "num_active_jobs": self.num_active_jobs(person),
                 "active_jobs_same_org_ratio": self.active_jobs_same_org_ratio(person),
