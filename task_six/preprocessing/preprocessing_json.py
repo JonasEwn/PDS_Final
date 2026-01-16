@@ -1,64 +1,51 @@
 import json
 import pandas as pd
-from sklearn.preprocessing import LabelEncoder
+import numpy as np
+from sklearn.preprocessing import OrdinalEncoder
 
-
-class Preprocessing_JSON_Seniority:
-    """
-    Preprocess LinkedIn-style JSON data for seniority prediction.
-
-    Each outer list element = one person
-    Uses the most recent ACTIVE job only
-    text  = position
-    label = seniority
-
-    Output:
-        self.X       -> pd.Series (text)
-        self.y       -> np.ndarray (encoded labels)
-        self.y_str   -> pd.Series (string labels)
-        self.df      -> full DataFrame
-    """
-
-    def __init__(
-        self,
-        json_path: str,
-        label_encoder: LabelEncoder,
-        drop_label: str = "Professional"
-    ):
-        self.json_path = json_path
-        self.drop_label = drop_label
-        self.label_encoder = label_encoder  # IMPORTANT: reuse from train
-
+class Preprocessing_JSON_annotated_Seniority():
+    def __init__(self, path):
+        self.path = path
+        self.labels = [
+            "Junior",
+            "Professional",
+            "Senior",
+            "Lead",
+            "Management",
+            "Director"
+        ]
+        self.label_encoder = OrdinalEncoder(
+            categories=[self.labels],
+            handle_unknown="use_encoded_value",
+            unknown_value=-1
+        )
         self.df = None
         self.X = None
         self.y = None
-        self.y_str = None
 
         self.read_json()
 
-    # ----------------------------
-    # Helpers
-    # ----------------------------
+
     @staticmethod
     def _parse_year_month(s):
-        if not isinstance(s, str) or len(s) < 7:
-            return None
+        """
+        Expects: "YYYY.MM" -> Returns: (year, month)
+        """
+        if not isinstance(s, str) or len(s) < 7: return None
+
         try:
-            y, m = s.split("-")
-            return int(y), int(m)
-        except Exception:
-            return None
+            year, month = s.split("-")
+            return int(year), int(month)
+        except Exception: return None
+
 
     @staticmethod
-    def clean_text(text: str) -> str:
-        return str(text).lower().strip()
+    def clean_text(text):
+        return str(text).lower().strip().replace("-", " ").replace("/", " ")
 
-    # ----------------------------
-    # Core logic
-    # ----------------------------
+
     def read_json(self):
-        with open(self.json_path, "r") as f:
-            data = json.load(f)
+        with open(self.path, "r") as f: data = json.load(f)
 
         rows = []
 
@@ -66,30 +53,22 @@ class Preprocessing_JSON_Seniority:
             active_jobs = []
 
             for job in person:
-                if job.get("status") != "ACTIVE":
-                    continue
+                # Only active jobs
+                if job.get("status") != "ACTIVE": continue
 
                 start = self._parse_year_month(job.get("startDate"))
-                if start is None:
-                    continue
+                if start is None: continue
 
                 active_jobs.append((start, job))
 
-            if not active_jobs:
-                continue
+            if not active_jobs: continue
 
-            # Most recent ACTIVE job
-            active_jobs.sort(key=lambda x: x[0])
-            job = active_jobs[-1][1]
+            _, job = max(active_jobs, key=lambda x: x[0])
 
             position = job.get("position")
             seniority = job.get("seniority")
 
-            if not position or not seniority:
-                continue
-
-            if seniority == self.drop_label:
-                continue
+            if not position or not seniority: continue
 
             rows.append({
                 "text": self.clean_text(position),
@@ -98,11 +77,15 @@ class Preprocessing_JSON_Seniority:
 
         self.df = pd.DataFrame(rows)
 
-        # === Match CSV class output ===
+        if self.df.empty:
+            raise ValueError("No valid samples found in JSON")
+
         self.X = self.df["text"]
-        self.y_str = self.df["label"]
 
-        # IMPORTANT: do NOT fit again on test data
-        self.y = self.label_encoder.transform(self.y_str)
+        self.y = self.label_encoder.fit_transform(
+            self.df["label"].values.reshape(-1, 1)
+        ).flatten()
 
-        print(f"[JSON] Loaded {len(self.df)} samples")
+        print(
+            f"[JSON] Loaded {len(self.df)}"
+        )

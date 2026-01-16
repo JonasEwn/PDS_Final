@@ -1,5 +1,5 @@
 import pandas as pd
-from sklearn.preprocessing import LabelEncoder
+from sklearn.preprocessing import LabelEncoder, OrdinalEncoder
 
 
 class Preprocessing_CSV_Seniority():
@@ -9,7 +9,22 @@ class Preprocessing_CSV_Seniority():
         self.X = None
         self.y = None
         self.y_str = None
-        self.label_encoder = LabelEncoder()
+
+        # Da Labels eine Ordnung haben OrdinalEncoder anstatten LabelEncoder
+        #self.label_encoder = LabelEncoder()
+        self.ordninal_labels = [
+            "Junior",
+            "Professional",
+            "Senior",
+            "Lead",
+            "Management",
+            "Director"
+        ]
+        self.label_encoder = OrdinalEncoder(
+            categories=[self.ordninal_labels],
+            handle_unknown="use_encoded_value",
+            unknown_value=-1
+        )
 
         self.read_csv()
 
@@ -33,16 +48,22 @@ class Preprocessing_CSV_Seniority():
                 f"Wrong file mate :("
             )
 
-        self.df["text"] = self.df["text"].astype(str).apply(self.clean_text)
-        self.y_str = self.df["label"].astype(str)
-        self.y = self.label_encoder.fit_transform(self.y_str)
-        self.X = self.df["text"]
+        self.X = self.df["text"].astype(str).apply(self.clean_text)
+
+        # Für OrdinalEncoder
+        labels = self.df["label"].values.reshape(-1,1)
+        self.y = self.label_encoder.fit_transform(labels).flatten()
+
+        # Für LabelEncoder
+        #self.y_str = self.df["label"].astype(str)
+        #self.y = self.label_encoder.fit_transform(self.y_str)
+        #self.X = self.df["text"]
 
     def labels(self):
         """
-        Just quick check can be removed
+        Just quick check, can be removed
         """
         return {
-            (i, label) for i, label in enumerate(self.label_encoder.classes_)
+            i: label for i, label in enumerate(self.label_encoder.classes_)
         }
 
