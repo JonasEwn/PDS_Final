@@ -1,69 +1,44 @@
 import pandas as pd
-from sklearn.preprocessing import LabelEncoder, OrdinalEncoder
 
 
 class Preprocessing_CSV_Seniority():
-    def __init__(self, file_path):
+    def __init__(self, file_path: str):
         self.file_path = file_path
-        self.df: pd.DataFrame = None
-        self.X = None
-        self.y = None
-        self.y_str = None
+        self.df: pd.DataFrame | None = None
 
-        # Da Labels eine Ordnung haben OrdinalEncoder anstatten LabelEncoder
-        #self.label_encoder = LabelEncoder()
-        self.ordninal_labels = [
-            "Junior",
-            "Professional",
-            "Senior",
-            "Lead",
-            "Management",
-            "Director"
-        ]
-        self.label_encoder = OrdinalEncoder(
-            categories=[self.ordninal_labels],
-            handle_unknown="use_encoded_value",
-            unknown_value=-1
-        )
+        # Label and Text
+        self.X: pd.Series = None
+        self.y: pd.Series = None
+
+        # Optional: keep raw versions too
+        self.X_raw: pd.Series | None = None
+        self.y_raw: pd.Series | None = None
 
         self.read_csv()
 
-    def clean_text(self, text: str):
-        """
-        Removes - and / and replaces with <space>
-        """
-        text = text.lower().strip().replace("-", " ").replace("/", " ")
-        return text
+    @staticmethod
+    def clean_text(text: str) -> str:
+        """Lowercase, strip, replace - and / with spaces."""
+        return str(text).lower().strip().replace("-", " ").replace("/", " ")
 
     def read_csv(self):
-        """
-        Reads CSV file and saves them in class properties
-        """
+        """Reads CSV and exposes X (cleaned text) and y (raw text labels)."""
         self.df = pd.read_csv(self.file_path)
 
-        # Check if correct file is given
-        requiered_cols = {"text", "label"}
-        if not requiered_cols.issubset(self.df.columns):
-            raise ValueError(
-                f"Wrong file mate :("
-            )
+        required_cols = {"text", "label"}
+        if not required_cols.issubset(self.df.columns):
+            raise ValueError("Wrong file mate :( Expected columns: text, label")
 
-        self.X = self.df["text"].astype(str).apply(self.clean_text)
+        # Raw
+        self.X_raw = self.df["text"].astype(str)
+        self.y_raw = self.df["label"].astype(str)
 
-        # Für OrdinalEncoder
-        labels = self.df["label"].values.reshape(-1,1)
-        self.y = self.label_encoder.fit_transform(labels).flatten()
+        # Cleaned + labels as strings
+        self.X = self.X_raw.apply(self.clean_text)
+        self.y = self.y_raw
 
-        # Für LabelEncoder
-        #self.y_str = self.df["label"].astype(str)
-        #self.y = self.label_encoder.fit_transform(self.y_str)
-        #self.X = self.df["text"]
-
-    def labels(self):
-        """
-        Just quick check, can be removed
-        """
-        return {
-            i: label for i, label in enumerate(self.label_encoder.classes_)
-        }
-
+    def label_distribution(self) -> pd.Series:
+        """Quick check of label counts."""
+        if self.y is None:
+            return pd.Series(dtype=int)
+        return self.y.value_counts()

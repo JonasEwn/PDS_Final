@@ -1,91 +1,84 @@
 import json
 import pandas as pd
-import numpy as np
-from sklearn.preprocessing import OrdinalEncoder
 
-class Preprocessing_JSON_annotated_Seniority():
-    def __init__(self, path):
+
+class Preprocessing_JSON_annotated_Seniority:
+    """
+    Loads an annotated JSON file (list of persons, each a list of jobs).
+    Keeps ONLY the latest ACTIVE job per person (by startDate).
+    Returns:
+      - self.X: pd.Series of cleaned positions (text)
+      - self.y: pd.Series of raw string labels (seniority)  # NOT encoded
+      - self.df: DataFrame with columns ["text", "label"]
+    """
+
+    def __init__(self, path: str):
         self.path = path
-        self.labels = [
-            "Junior",
-            "Professional",
-            "Senior",
-            "Lead",
-            "Management",
-            "Director"
-        ]
-        self.label_encoder = OrdinalEncoder(
-            categories=[self.labels],
-            handle_unknown="use_encoded_value",
-            unknown_value=-1
-        )
-        self.df = None
-        self.X = None
-        self.y = None
+        self.df: pd.DataFrame | None = None
+        self.X: pd.Series | None = None
+        self.y: pd.Series | None = None
 
         self.read_json()
 
-
     @staticmethod
     def _parse_year_month(s):
-        """
-        Expects: "YYYY.MM" -> Returns: (year, month)
-        """
-        if not isinstance(s, str) or len(s) < 7: return None
-
+        """Expects 'YYYY-MM' -> (year, month) or None."""
+        if not isinstance(s, str) or len(s) < 7:
+            return None
         try:
             year, month = s.split("-")
             return int(year), int(month)
-        except Exception: return None
-
+        except Exception:
+            return None
 
     @staticmethod
-    def clean_text(text):
+    def clean_text(text: str) -> str:
         return str(text).lower().strip().replace("-", " ").replace("/", " ")
 
-
     def read_json(self):
-        with open(self.path, "r") as f: data = json.load(f)
+        with open(self.path, "r", encoding="utf-8") as f:
+            data = json.load(f)
 
         rows = []
 
-        for person in data:
-            active_jobs = []
+        for person_jobs in data:
+            if not isinstance(person_jobs, list):
+                continue
 
-            for job in person:
-                # Only active jobs
-                if job.get("status") != "ACTIVE": continue
+            active_jobs = []
+            for job in person_jobs:
+                if not isinstance(job, dict):
+                    continue
+                if job.get("status") != "ACTIVE":
+                    continue
 
                 start = self._parse_year_month(job.get("startDate"))
-                if start is None: continue
+                if start is None:
+                    continue
 
                 active_jobs.append((start, job))
 
-            if not active_jobs: continue
+            if not active_jobs:
+                continue
 
             _, job = max(active_jobs, key=lambda x: x[0])
 
             position = job.get("position")
             seniority = job.get("seniority")
 
-            if not position or not seniority: continue
+            if not position or not seniority:
+                continue
 
-            rows.append({
-                "text": self.clean_text(position),
-                "label": seniority
-            })
+            rows.append(
+                {"text": self.clean_text(position), "label": str(seniority)}
+            )
 
         self.df = pd.DataFrame(rows)
-
         if self.df.empty:
             raise ValueError("No valid samples found in JSON")
 
-        self.X = self.df["text"]
+        # Output as *raw* (NOT encoded)
+        self.X = self.df["text"].astype(str)
+        self.y = self.df["label"].astype(str)
 
-        self.y = self.label_encoder.fit_transform(
-            self.df["label"].values.reshape(-1, 1)
-        ).flatten()
-
-        print(
-            f"[JSON] Loaded {len(self.df)}"
-        )
+        print(f"[JSON] Loaded {len(self.df)} samples from {self.path}")
