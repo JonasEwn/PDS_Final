@@ -77,7 +77,6 @@ class Preprocessing_JSON_annotated_Seniority:
         if self.df.empty:
             raise ValueError("No valid samples found in JSON")
 
-        # Output as *raw* (NOT encoded)
         self.X = self.df["text"].astype(str)
         self.y = self.df["label"].astype(str)
 
