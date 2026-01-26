@@ -1,3 +1,6 @@
+# -----------------------------------------
+#       Wird nicht mehr verwendet.
+# -----------------------------------------
 import json
 import pandas as pd
 
