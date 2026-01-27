@@ -1,315 +1,315 @@
-,text,predicted_department
-0,Bookkeeper,Administrative
-1,Strategy & Investments,Business Development
-2,Corporate Auditor,Other
-3,Marketing Manager,Marketing
-4,Professor,Other
-5,Program Purchasing Leader / Program / Acquisition Buyer,Purchasing
-6,Business Analyst,Business Development
-7,Managementberater IT- und Governance,Consulting
-8,Founder & CEO,Other
-9,Geschäftsführer,Other
-10,Manager,Other
-11,Koordinerende sagsbehandler,Administrative
-12,Head of Supply Chain,Other
-13,Director of Finance,Other
-14,Inhaber,Other
-15,Geschäftsführer CFO,Other
-16,Mitglied der Geschäftsleitung,Other
-17,"Global Marketing Director, Nonwovens",Marketing
-18,Social Researcher,Other
-19,Berater,Consulting
-20,Center Management,Other
-21,Senior Project Manager,Project Management
-22,Federal Account Manager,Sales
-23,Brand Strategist,Marketing
-24,Senior Category Manager,Purchasing
-25,General Manager,Other
-26,Owner and Executive Director,Other
-27,Founder & Managing Director,Other
-28,Orthodontie assistent,Other
-29,Manager Risk Advisory,Consulting
-30,Systemadministrator Clientservices,Information Technology
-31,IT Program Manager – Information Security,Information Technology
-32,Pionier der Strömungsoptimierung und Wasserstofftechnologien für effiziente Energielösungen,Other
-33,CEO,Other
-34,Head of Payment IT Solutions,Information Technology
-35,Banking Prudential Supervision Analyst,Other
-36,Geschäftsführer,Other
-37,CEO,Other
-38,SVP People & Culture Management and Services; CEO METRO Campus Services GmbH,Human Resources
-39,Managing Director,Other
-40,Building Consultant,Consulting
-41,Managing Director,Other
-42,Senior Director,Other
-43,Commercial Director On Trade,Sales
-44,CEO,Other
-45,Senior Manager,Consulting
-46,Graduate Engineer,Other
-47,Senior Architect,Other
-48,Dozent DHBW Stuttgart,Other
-49,Mitbegründer und Geschäftsführer,Other
-50,Data Researcher,Information Technology
-51,MD PhD MBA MMSc,Other
-52,Co-Fundador & Lead Developer,Information Technology
-53,Sales Manager,Sales
-54,"Director, Digital Services Business",Business Development
-55,Unternehmensinhaber,Other
-56,Docent lichamelijke opvoeding,Other
-57,Marketing Engineer,Marketing
-58,Technischer Leiter,Other
-59,Senior Advisor to the CS Pension Fund in Switzerland,Human Resources
-60,Gruppenleiter HR KPI & Reporting,Human Resources
-61,CEO,Other
-62,Responsable développement projets,Project Management
-63,Transformation Partner,Consulting
-64,"Executive Partner, Senior Software Engineer",Information Technology
-65,Secretary General/CEO Welthungerhilfe,Other
-66,Fachreferent MatWerk,Other
-67,CEO,Other
-68,Statistiker,Other
-69,Chief Operating Officer,Other
-70,Adjunct Researcher,Other
-71,Self-Employed,Other
-72,Managing Partner,Other
-73,Partner,Other
-74,Chief Information Officer,Information Technology
-75,Visiting Lecturer,Other
-76,Präsidentin Technische Universität Berlin,Other
-77,Sr. Customer Support spec.,Customer Support
-78,Personalreferent,Human Resources
-79,Pflegefachkraft,Other
-80,freischaffender Künstler,Other
-81,Subcommittee Member,Other
-82,Deputy Chief,Other
-83,Product Manager,Other
-84,OM/Customer Success Manager,Customer Support
-85,Geschäftsführer,Other
-86,Senior Director Product Management,Other
-87,Matelot,Other
-88,Gebietsleiter LBS NordWest,Sales
-89,"Country Lead, Country Clinical Operations",Other
-90,Director,Other
-91,Sales Manager,Sales
-92,Undergraduate Research Assistant,Other
-93,Technical Specialist,Information Technology
-94,Team Lead Global Supply Management,Purchasing
-95,Leiter Projektmanagement / Projektleiter,Project Management
-96,Unternehmensinhaber,Other
-97,HR Business Partner,Human Resources
-98,Corporate recruiter,Human Resources
-99,Unternehmensinhaber,Other
-100,Sr. Drafting & Design Technologist .,Other
-101,Owner,Other
-102,Global Category Manager,Purchasing
-103,Program Manager,Project Management
-104,Chief Growth Officer,Business Development
-105,Senior Software Developer,Information Technology
-106,Geschäftsführer / CEO&COO,Other
-107,Customer Executive & Member of Management Northern Europe,Customer Support
-108,Senior Software Engineer,Information Technology
-109,Recruitment Consultant,Consulting
-110,CEO,Other
-111,Corporate Communications & Marketing Services Senior Manager,Marketing
-112,International Clinical Project Manager,Project Management
-113,Leiter Inhouse Logistik,Other
-114,Technology Lead Germany,Information Technology
-115,Director of Sales and Marketing,Sales
-116,Customer Success Manager,Customer Support
-117,Trade Marketing Manager,Marketing
-118,Head Currency Solutions,Sales
-119,SVP Sales & Accounts,Sales
-120,Managing Director,Other
-121,Construction site leader,Other
-122,Data Manager,Information Technology
-123,Vice President,Purchasing
-124,Heimleiterin,Other
-125,Chief Executive Officer,Other
-126,Inhaber und Geschäftsführer,Other
-127,Senior Manager,Other
-128,Director of Education,Other
-129,Gerente Comercial,Sales
-130,Designer,Other
-131,Gerente de RR.HH Mexico,Human Resources
-132,Business Development & Key Account Manager,Business Development
-133,CEO,Other
-134,Quality Coordinator,Other
-135,Pensionskundechef / Account Executive,Sales
-136,Principal Advisor,Consulting
-137,Senior Manager,Consulting
-138,Geschäftsführender Gesellschafter,Other
-139,Sales Director EMEA,Sales
-140,Geschäftsführender Gesellschafter,Other
-141,Verkaufsleiter,Sales
-142,Chief Executive Officer,Other
-143,Senior Program Manager,Project Management
-144,Independent Advisor to Founders and Funds,Consulting
-145,CST,Customer Support
-146,R&D group manager,Other
-147,Klinischer Psychologe,Other
-148,Software Developer,Information Technology
-149,COO,Other
-150,Geschäftsführender Gesellschafter,Other
-151,Expat Jumbo Operator,Other
-152,Geschäftsführer,Other
-153,Retired,Other
-154,Application Specialist,Customer Support
-155,Executive Director / Head of UN Advocacy,Other
-156,Project V&V Manager,Project Management
-157,Rechtsanwalt,Other
-158,Indigenous Counsellor & Case Manager,Other
-159,Bauleiter,Project Management
-160,Amministrazione,Administrative
-161,Head of Customer Sales Service & Sales Controlling,Sales
-162,Engineering Manager,Other
-163,Retired but still active and interested in Optics Development and Metrology,Other
-164,Sales Consultant,Sales
-165,Senior Technical Consultant,Consulting
-166,Nurse Practitioner,Other
-167,Packhouse Managing consultant,Consulting
-168,Verwaltungsrat,Other
-169,Development Manager,Business Development
-170,Vertriebsspezialist,Sales
-171,Rechtsanwalt,Other
-172,HW-Developer BU Motion,Information Technology
-173,Head of Organization Projects and Facility Operations,Other
-174,Head of Global Life Products,Other
-175,Investor,Other
-176,Geschäftsführer,Other
-177,Executive Assistant to the President,Administrative
-178,Partner,Other
-179,Webentwickler,Information Technology
-180,Director Construction & Engineering,Other
-181,Dekanatsrätin,Administrative
-182,Mitarbeiter Produktmanagement,Other
-183,Manager,Consulting
-184,Head of Development,Other
-185,Manager,Other
-186,Chairman of the Board,Other
-187,Stammdatenmanager R&D ENGINEERING / R&D,Other
-188,aktiver Gesellschafter,Other
-189,Leiter Produktion / Mitinhaber,Other
-190,Senior Manager,Business Development
-191,President,Other
-192,Senior Brand Manager,Marketing
-193,Leiter Instandhaltung,Other
-194,Salesman,Sales
-195,Senior Human Resources Manager,Human Resources
-196,Direktor,Other
-197,Influencer Marketing Executive,Marketing
-198,Unternehmensinhaber,Other
-199,Vizepräsident Junior,Other
-200,Prokurist / Direktor Touristik,Other
-201,Kipper -Spedition,Other
-202,Pedagoga,Other
-203,Behavioral Health Clinician,Other
-204,Web Developer,Information Technology
-205,Manager Custom Solutions,Sales
-206,Responsable Développement Automotive,Business Development
-207,Projektmanager strat. BK E/E Infrastruktur,Project Management
-208,Responsable de projet marketing et communications,Project Management
-209,Vermittlung und Verrentung von Immobilien,Sales
-210,Approvisionneuse Bilingue,Purchasing
-211,Digital Product Owner,Information Technology
-212,Head of Legal,Other
-213,Receptionist,Administrative
-214,Retail Director DACH,Other
-215,Chief Executive Officer,Other
-216,General Manager,Other
-217,Purser,Other
-218,Vorstandsvorsitzender,Other
-219,Associate,Consulting
-220,VP,Human Resources
-221,Partner,Other
-222,Senior Vice President R&D,Other
-223,Industriereiniger,Other
-224,CEO,Other
-225,Senior Vice President Global Supplier Management,Purchasing
-226,Sr. International Agent,Customer Support
-227,Manager- Hr Ops & Talent Acquisition,Human Resources
-228,CEO,Other
-229,Production Engineer,Other
-230,Quality Engineering Manager,Other
-231,Vertriebsleiter,Sales
-232,Produktmanager,Marketing
-233,Partner und Inhaber,Marketing
-234,Senior Advisor,Consulting
-235,Hockey Coach,Other
-236,Quality Assurance Manager / Quality Contract Managment / GMP Auditor,Other
-237,SVP Transformation & Strategy,Other
-238,"Director, Sales Unit Benelux",Sales
-239,Strategischer Einkäufer,Purchasing
-240,VP Market Intelligence,Business Development
-241,Director / Project implementation Manager,Project Management
-242,Aktionär,Other
-243,Werkstudent Facheinkauf Interieur,Purchasing
-244,Account Director,Sales
-245,Head teacher in art,Other
-246,Chef,Other
-247,Geschäftsführer,Other
-248,General Manager,Other
-249,Spa Concierge,Customer Support
-250,Geschäftsführender Gesellschafter,Marketing
-251,Account-Manager,Sales
-252,Head of Digital Radio Design,Other
-253,Assistent,Administrative
-254,Polizistin,Other
-255,Managing Partner,Other
-256,Global Product Marketing Manager,Marketing
-257,Produktingenieur,Other
-258,Vorstand / CEO bei Eberhard AG,Other
-259,Projektingenieur,Project Management
-260,Managing Partner,Other
-261,Geschäftsführender Gesellschafter,Other
-262,SVP 3DS-Solutions CENIT Group,Consulting
-263,Senior Vice President APAC,Other
-264,CEO Co-owner,Other
-265,Business Strategy Consultant,Consulting
-266,Managing Director,Other
-267,Recreation Manager,Other
-268,Stiftungsrat,Other
-269,Projektplaner,Project Management
-270,Senior Manager,Consulting
-271,Information Technology Specialist -ITCS,Information Technology
-272,Geschäftsführender Inhaber,Other
-273,Gebietsverkaufsleiterin Implantologie & Prothetik,Sales
-274,Vice President,Other
-275,Senior Vice President,Other
-276,Platin,Marketing
-277,Executive Partner Development Manager,Business Development
-278,Departementssekretär / Leiter Amt für Militär und Bevölkerungsschutz,Administrative
-279,CEO,Other
-280,Partner,Other
-281,Chief Executive Officer,Other
-282,Arbeitssuche,Other
-283,Managing Director,Consulting
-284,Head of Global Competence Center MO/BO/Acc Business Analysis,Business Development
-285,Alleiniger Vorstand,Other
-286,Senior Software Engineer,Information Technology
-287,Owner,Other
-288,Projektleiter,Project Management
-289,Leiter Program Management RADAR,Project Management
-290,Geschäftsführer,Other
-291,Pharmacy Sales Representative,Sales
-292,Bereichsleiter Finanzen und Rechnungswesen,Other
-293,"Geschäftsleitung, Prokurist",Other
-294,Sales Manager,Sales
-295,Industrial Engineer,Other
-296,Pflegedienstleitung,Other
-297,Principal Consultant,Consulting
-298,"Projektexperte Sicherheit, Geschäftsleitung",Project Management
-299,Solution Designer,Information Technology
-300,Founder -Owner,Other
-301,Human Resources Manager,Human Resources
-302,Einkäufer Werkleistungen/Diestleistugen,Purchasing
-303,Regional Manager,Other
-304,Head of Hybrid Cloud Solution Sales Germany,Sales
-305,Director,Other
-306,Doctoral Student,Other
-307,Project Manager Entwicklung /Lebensmittel,Project Management
-308,Consultant,Consulting
-309,General Counsel / Leiter Rechtsabteilung,Other
-310,Team Lead Business Services,Other
-311,CEO & Co-founder,Other
-312,Juristischer Berater,Consulting
-313,"Leitung Personal, Finanzen, Einkauf, IT",Other
+text,predicted_department
+Bookkeeper,Administrative
+Strategy & Investments,Business Development
+Corporate Auditor,Other
+Marketing Manager,Marketing
+Professor,Other
+Program Purchasing Leader / Program / Acquisition Buyer,Purchasing
+Business Analyst,Business Development
+Managementberater IT- und Governance,Consulting
+Founder & CEO,Other
+Geschäftsführer,Other
+Manager,Other
+Koordinerende sagsbehandler,Administrative
+Head of Supply Chain,Other
+Director of Finance,Other
+Inhaber,Other
+Geschäftsführer CFO,Other
+Mitglied der Geschäftsleitung,Other
+"Global Marketing Director, Nonwovens",Marketing
+Social Researcher,Other
+Berater,Consulting
+Center Management,Other
+Senior Project Manager,Project Management
+Federal Account Manager,Sales
+Brand Strategist,Marketing
+Senior Category Manager,Purchasing
+General Manager,Other
+Owner and Executive Director,Other
+Founder & Managing Director,Other
+Orthodontie assistent,Other
+Manager Risk Advisory,Consulting
+Systemadministrator Clientservices,Information Technology
+IT Program Manager – Information Security,Information Technology
+Pionier der Strömungsoptimierung und Wasserstofftechnologien für effiziente Energielösungen,Other
+CEO,Other
+Head of Payment IT Solutions,Information Technology
+Banking Prudential Supervision Analyst,Other
+Geschäftsführer,Other
+CEO,Other
+SVP People & Culture Management and Services; CEO METRO Campus Services GmbH,Human Resources
+Managing Director,Other
+Building Consultant,Consulting
+Managing Director,Other
+Senior Director,Other
+Commercial Director On Trade,Sales
+CEO,Other
+Senior Manager,Consulting
+Graduate Engineer,Other
+Senior Architect,Other
+Dozent DHBW Stuttgart,Other
+Mitbegründer und Geschäftsführer,Other
+Data Researcher,Information Technology
+MD PhD MBA MMSc,Other
+Co-Fundador & Lead Developer,Information Technology
+Sales Manager,Sales
+"Director, Digital Services Business",Business Development
+Unternehmensinhaber,Other
+Docent lichamelijke opvoeding,Other
+Marketing Engineer,Marketing
+Technischer Leiter,Other
+Senior Advisor to the CS Pension Fund in Switzerland,Human Resources
+Gruppenleiter HR KPI & Reporting,Human Resources
+CEO,Other
+Responsable développement projets,Project Management
+Transformation Partner,Consulting
+"Executive Partner, Senior Software Engineer",Information Technology
+Secretary General/CEO Welthungerhilfe,Other
+Fachreferent MatWerk,Other
+CEO,Other
+Statistiker,Other
+Chief Operating Officer,Other
+Adjunct Researcher,Other
+Self-Employed,Other
+Managing Partner,Other
+Partner,Other
+Chief Information Officer,Information Technology
+Visiting Lecturer,Other
+Präsidentin Technische Universität Berlin,Other
+Sr. Customer Support spec.,Customer Support
+Personalreferent,Human Resources
+Pflegefachkraft,Other
+freischaffender Künstler,Other
+Subcommittee Member,Other
+Deputy Chief,Other
+Product Manager,Other
+OM/Customer Success Manager,Customer Support
+Geschäftsführer,Other
+Senior Director Product Management,Other
+Matelot,Other
+Gebietsleiter LBS NordWest,Sales
+"Country Lead, Country Clinical Operations",Other
+Director,Other
+Sales Manager,Sales
+Undergraduate Research Assistant,Other
+Technical Specialist,Information Technology
+Team Lead Global Supply Management,Purchasing
+Leiter Projektmanagement / Projektleiter,Project Management
+Unternehmensinhaber,Other
+HR Business Partner,Human Resources
+Corporate recruiter,Human Resources
+Unternehmensinhaber,Other
+Sr. Drafting & Design Technologist .,Other
+Owner,Other
+Global Category Manager,Purchasing
+Program Manager,Project Management
+Chief Growth Officer,Business Development
+Senior Software Developer,Information Technology
+Geschäftsführer / CEO&COO,Other
+Customer Executive & Member of Management Northern Europe,Customer Support
+Senior Software Engineer,Information Technology
+Recruitment Consultant,Consulting
+CEO,Other
+Corporate Communications & Marketing Services Senior Manager,Marketing
+International Clinical Project Manager,Project Management
+Leiter Inhouse Logistik,Other
+Technology Lead Germany,Information Technology
+Director of Sales and Marketing,Sales
+Customer Success Manager,Customer Support
+Trade Marketing Manager,Marketing
+Head Currency Solutions,Sales
+SVP Sales & Accounts,Sales
+Managing Director,Other
+Construction site leader,Other
+Data Manager,Information Technology
+Vice President,Purchasing
+Heimleiterin,Other
+Chief Executive Officer,Other
+Inhaber und Geschäftsführer,Other
+Senior Manager,Other
+Director of Education,Other
+Gerente Comercial,Sales
+Designer,Other
+Gerente de RR.HH Mexico,Human Resources
+Business Development & Key Account Manager,Business Development
+CEO,Other
+Quality Coordinator,Other
+Pensionskundechef / Account Executive,Sales
+Principal Advisor,Consulting
+Senior Manager,Consulting
+Geschäftsführender Gesellschafter,Other
+Sales Director EMEA,Sales
+Geschäftsführender Gesellschafter,Other
+Verkaufsleiter,Sales
+Chief Executive Officer,Other
+Senior Program Manager,Project Management
+Independent Advisor to Founders and Funds,Consulting
+CST,Customer Support
+R&D group manager,Other
+Klinischer Psychologe,Other
+Software Developer,Information Technology
+COO,Other
+Geschäftsführender Gesellschafter,Other
+Expat Jumbo Operator,Other
+Geschäftsführer,Other
+Retired,Other
+Application Specialist,Customer Support
+Executive Director / Head of UN Advocacy,Other
+Project V&V Manager,Project Management
+Rechtsanwalt,Other
+Indigenous Counsellor & Case Manager,Other
+Bauleiter,Project Management
+Amministrazione,Administrative
+Head of Customer Sales Service & Sales Controlling,Sales
+Engineering Manager,Other
+Retired but still active and interested in Optics Development and Metrology,Other
+Sales Consultant,Sales
+Senior Technical Consultant,Consulting
+Nurse Practitioner,Other
+Packhouse Managing consultant,Consulting
+Verwaltungsrat,Other
+Development Manager,Business Development
+Vertriebsspezialist,Sales
+Rechtsanwalt,Other
+HW-Developer BU Motion,Information Technology
+Head of Organization Projects and Facility Operations,Other
+Head of Global Life Products,Other
+Investor,Other
+Geschäftsführer,Other
+Executive Assistant to the President,Administrative
+Partner,Other
+Webentwickler,Information Technology
+Director Construction & Engineering,Other
+Dekanatsrätin,Administrative
+Mitarbeiter Produktmanagement,Other
+Manager,Consulting
+Head of Development,Other
+Manager,Other
+Chairman of the Board,Other
+Stammdatenmanager R&D ENGINEERING / R&D,Other
+aktiver Gesellschafter,Other
+Leiter Produktion / Mitinhaber,Other
+Senior Manager,Business Development
+President,Other
+Senior Brand Manager,Marketing
+Leiter Instandhaltung,Other
+Salesman,Sales
+Senior Human Resources Manager,Human Resources
+Direktor,Other
+Influencer Marketing Executive,Marketing
+Unternehmensinhaber,Other
+Vizepräsident Junior,Other
+Prokurist / Direktor Touristik,Other
+Kipper -Spedition,Other
+Pedagoga,Other
+Behavioral Health Clinician,Other
+Web Developer,Information Technology
+Manager Custom Solutions,Sales
+Responsable Développement Automotive,Business Development
+Projektmanager strat. BK E/E Infrastruktur,Project Management
+Responsable de projet marketing et communications,Project Management
+Vermittlung und Verrentung von Immobilien,Sales
+Approvisionneuse Bilingue,Purchasing
+Digital Product Owner,Information Technology
+Head of Legal,Other
+Receptionist,Administrative
+Retail Director DACH,Other
+Chief Executive Officer,Other
+General Manager,Other
+Purser,Other
+Vorstandsvorsitzender,Other
+Associate,Consulting
+VP,Human Resources
+Partner,Other
+Senior Vice President R&D,Other
+Industriereiniger,Other
+CEO,Other
+Senior Vice President Global Supplier Management,Purchasing
+Sr. International Agent,Customer Support
+Manager- Hr Ops & Talent Acquisition,Human Resources
+CEO,Other
+Production Engineer,Other
+Quality Engineering Manager,Other
+Vertriebsleiter,Sales
+Produktmanager,Marketing
+Partner und Inhaber,Marketing
+Senior Advisor,Consulting
+Hockey Coach,Other
+Quality Assurance Manager / Quality Contract Managment / GMP Auditor,Other
+SVP Transformation & Strategy,Other
+"Director, Sales Unit Benelux",Sales
+Strategischer Einkäufer,Purchasing
+VP Market Intelligence,Business Development
+Director / Project implementation Manager,Project Management
+Aktionär,Other
+Werkstudent Facheinkauf Interieur,Purchasing
+Account Director,Sales
+Head teacher in art,Other
+Chef,Other
+Geschäftsführer,Other
+General Manager,Other
+Spa Concierge,Customer Support
+Geschäftsführender Gesellschafter,Marketing
+Account-Manager,Sales
+Head of Digital Radio Design,Other
+Assistent,Administrative
+Polizistin,Other
+Managing Partner,Other
+Global Product Marketing Manager,Marketing
+Produktingenieur,Other
+Vorstand / CEO bei Eberhard AG,Other
+Projektingenieur,Project Management
+Managing Partner,Other
+Geschäftsführender Gesellschafter,Other
+SVP 3DS-Solutions CENIT Group,Consulting
+Senior Vice President APAC,Other
+CEO Co-owner,Other
+Business Strategy Consultant,Consulting
+Managing Director,Other
+Recreation Manager,Other
+Stiftungsrat,Other
+Projektplaner,Project Management
+Senior Manager,Consulting
+Information Technology Specialist -ITCS,Information Technology
+Geschäftsführender Inhaber,Other
+Gebietsverkaufsleiterin Implantologie & Prothetik,Sales
+Vice President,Other
+Senior Vice President,Other
+Platin,Marketing
+Executive Partner Development Manager,Business Development
+Departementssekretär / Leiter Amt für Militär und Bevölkerungsschutz,Administrative
+CEO,Other
+Partner,Other
+Chief Executive Officer,Other
+Arbeitssuche,Other
+Managing Director,Consulting
+Head of Global Competence Center MO/BO/Acc Business Analysis,Business Development
+Alleiniger Vorstand,Other
+Senior Software Engineer,Information Technology
+Owner,Other
+Projektleiter,Project Management
+Leiter Program Management RADAR,Project Management
+Geschäftsführer,Other
+Pharmacy Sales Representative,Sales
+Bereichsleiter Finanzen und Rechnungswesen,Other
+"Geschäftsleitung, Prokurist",Other
+Sales Manager,Sales
+Industrial Engineer,Other
+Pflegedienstleitung,Other
+Principal Consultant,Consulting
+"Projektexperte Sicherheit, Geschäftsleitung",Project Management
+Solution Designer,Information Technology
+Founder -Owner,Other
+Human Resources Manager,Human Resources
+Einkäufer Werkleistungen/Diestleistugen,Purchasing
+Regional Manager,Other
+Head of Hybrid Cloud Solution Sales Germany,Sales
+Director,Other
+Doctoral Student,Other
+Project Manager Entwicklung /Lebensmittel,Project Management
+Consultant,Consulting
+General Counsel / Leiter Rechtsabteilung,Other
+Team Lead Business Services,Other
+CEO & Co-founder,Other
+Juristischer Berater,Consulting
+"Leitung Personal, Finanzen, Einkauf, IT",Other
