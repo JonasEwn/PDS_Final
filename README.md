@@ -1,7 +1,3 @@
-# Predicting Domain and Seniority from LinkedIn Data
-
-This Repository conatins the Code and Data for our Final Project, focuse on predicting the Domain and Seniority of the provided LinkedIn Data using different Machine Learning approaches. The Repository is structured according to the suggested apporoaches in the task describtion.
-
 HF-profile: https://huggingface.co/Luu200
 
 
