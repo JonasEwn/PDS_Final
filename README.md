@@ -19,9 +19,14 @@ The repository is organised according to the structure of the task description, 
 ```
 PDS_Final/
 ├── data/
-│   ├── raw/                         # Original LinkedIn CV data (JSON)
-│   ├── processed/                   # Cleaned and preprocessed CSV/JSON files
-│   └── snapaddy_labels.csv          # Hand-labeled evaluation dataset
+│   ├── raw/
+│   ├── processed/
+│   └── snapaddy_labels.csv
+│
+├── ensemble/
+│   ├── department.ipynb
+│   ├── seniority.ipynb
+│   └── plots/
 │
 ├── task_1_rule_based/
 │   ├── rule_based_domain.ipynb
@@ -43,20 +48,5 @@ PDS_Final/
 │   ├── feature_extraction.ipynb
 │   └── classical_ml_models.ipynb
 │
-├── ensemble/
-│   ├── department.ipynb
-│   ├── seniority.ipynb
-│   └── plots/                       # Evaluation plots and confusion matrices
-│
-├── reports/
-│   ├── final_report.pdf
-│   └── figures/
-│
-├── src/
-│   ├── preprocessing.py
-│   ├── modeling.py
-│   └── evaluation.py
-│
-├── requirements.txt
 └── README.md
 ```
