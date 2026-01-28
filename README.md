@@ -62,4 +62,11 @@ PDS_Final/
 
 Contains all datasets used in the project, both the provided and those created by us.
 
-- **dep_PL.csv:** Programmatically labeled dataset for department prediction
+- **dep_PL.csv:** Dataset was created from the annotated.json. Contains newest Position of each Person and the associated Department
+- **department-v2.csv:** Dataset provided
+- **highest_active_jobs.csv:** Dataset was created from the not-annotated.json. Contains newest Position of each Person and the associated Department and Seniority
+- **labeled_not_annotated.csv:**
+- **linkedin-cvs-annotated.json:** Dataset provided
+- **linkedin-cvs-not-annotated.json:** Dataset provided
+- **sen_PL.csv:** Dataset was created from the annotated.json. Contains newest Position of each Person and the associated Seniority
+- **seniority-v2.csv:** Dataset provided
