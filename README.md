@@ -95,7 +95,7 @@ Folder for Embedding-based Labeling
 
 ### task_3_finetuning/SetFit/
 
-Fine Tuned Model from Huggingface. The Models are uploaded (here)[https://huggingface.co/Luu200]
+Fine Tuned Model from Huggingface. The trained models are available [here](https://huggingface.co/Luu200)
 
 - **dep_sf.ipynb:** Complete Pipeline for Department classification
 - **sen_sf.ipynb:** Complete Pipeline for Seniority classification
