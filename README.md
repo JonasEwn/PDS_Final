@@ -55,3 +55,11 @@ PDS_Final/
 │
 └── README.md
 ```
+
+## File Overview
+
+### data/
+
+Contains all datasets used in the project, both the provided and those created by us.
+
+- **dep_PL.csv:** Programmatically labeled dataset for department prediction
