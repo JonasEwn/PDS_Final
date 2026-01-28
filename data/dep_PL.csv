@@ -1,17 +1,17 @@
 text,predicted_department
-Bookkeeper,Other
-Strategy & Investments,Other
+Bookkeeper,Administrative
+Strategy & Investments,Business Development
 Corporate Auditor,Other
 Marketing Manager,Marketing
 Professor,Other
 Program Purchasing Leader / Program / Acquisition Buyer,Purchasing
-Business Analyst,Other
+Business Analyst,Business Development
 Managementberater IT- und Governance,Consulting
 Founder & CEO,Other
 Geschäftsführer,Other
 Manager,Other
 Koordinerende sagsbehandler,Administrative
-Head of Supply Chain,Purchasing
+Head of Supply Chain,Other
 Director of Finance,Other
 Inhaber,Other
 Geschäftsführer CFO,Other
@@ -44,9 +44,9 @@ Managing Director,Other
 Senior Director,Other
 Commercial Director On Trade,Sales
 CEO,Other
-Senior Manager,Other
+Senior Manager,Consulting
 Graduate Engineer,Other
-Senior Architect,Information Technology
+Senior Architect,Other
 Dozent DHBW Stuttgart,Other
 Mitbegründer und Geschäftsführer,Other
 Data Researcher,Information Technology
@@ -58,14 +58,14 @@ Unternehmensinhaber,Other
 Docent lichamelijke opvoeding,Other
 Marketing Engineer,Marketing
 Technischer Leiter,Other
-Senior Advisor to the CS Pension Fund in Switzerland,Other
+Senior Advisor to the CS Pension Fund in Switzerland,Human Resources
 Gruppenleiter HR KPI & Reporting,Human Resources
 CEO,Other
 Responsable développement projets,Project Management
 Transformation Partner,Consulting
 "Executive Partner, Senior Software Engineer",Information Technology
 Secretary General/CEO Welthungerhilfe,Other
-Fachreferent MatWerk,Purchasing
+Fachreferent MatWerk,Other
 CEO,Other
 Statistiker,Other
 Chief Operating Officer,Other
@@ -83,7 +83,7 @@ freischaffender Künstler,Other
 Subcommittee Member,Other
 Deputy Chief,Other
 Product Manager,Other
-OM/Customer Success Manager,Other
+OM/Customer Success Manager,Customer Support
 Geschäftsführer,Other
 Senior Director Product Management,Other
 Matelot,Other
@@ -106,28 +106,28 @@ Program Manager,Project Management
 Chief Growth Officer,Business Development
 Senior Software Developer,Information Technology
 Geschäftsführer / CEO&COO,Other
-Customer Executive & Member of Management Northern Europe,Sales
+Customer Executive & Member of Management Northern Europe,Customer Support
 Senior Software Engineer,Information Technology
-Recruitment Consultant,Human Resources
+Recruitment Consultant,Consulting
 CEO,Other
 Corporate Communications & Marketing Services Senior Manager,Marketing
 International Clinical Project Manager,Project Management
 Leiter Inhouse Logistik,Other
 Technology Lead Germany,Information Technology
-Director of Sales and Marketing,Marketing
+Director of Sales and Marketing,Sales
 Customer Success Manager,Customer Support
 Trade Marketing Manager,Marketing
-Head Currency Solutions,Other
+Head Currency Solutions,Sales
 SVP Sales & Accounts,Sales
 Managing Director,Other
 Construction site leader,Other
 Data Manager,Information Technology
-Vice President,Other
+Vice President,Purchasing
 Heimleiterin,Other
 Chief Executive Officer,Other
 Inhaber und Geschäftsführer,Other
 Senior Manager,Other
-Director of Education,Human Resources
+Director of Education,Other
 Gerente Comercial,Sales
 Designer,Other
 Gerente de RR.HH Mexico,Human Resources
@@ -136,7 +136,7 @@ CEO,Other
 Quality Coordinator,Other
 Pensionskundechef / Account Executive,Sales
 Principal Advisor,Consulting
-Senior Manager,Other
+Senior Manager,Consulting
 Geschäftsführender Gesellschafter,Other
 Sales Director EMEA,Sales
 Geschäftsführender Gesellschafter,Other
@@ -144,7 +144,7 @@ Verkaufsleiter,Sales
 Chief Executive Officer,Other
 Senior Program Manager,Project Management
 Independent Advisor to Founders and Funds,Consulting
-CST,Other
+CST,Customer Support
 R&D group manager,Other
 Klinischer Psychologe,Other
 Software Developer,Information Technology
@@ -153,7 +153,7 @@ Geschäftsführender Gesellschafter,Other
 Expat Jumbo Operator,Other
 Geschäftsführer,Other
 Retired,Other
-Application Specialist,Information Technology
+Application Specialist,Customer Support
 Executive Director / Head of UN Advocacy,Other
 Project V&V Manager,Project Management
 Rechtsanwalt,Other
@@ -161,14 +161,14 @@ Indigenous Counsellor & Case Manager,Other
 Bauleiter,Project Management
 Amministrazione,Administrative
 Head of Customer Sales Service & Sales Controlling,Sales
-Engineering Manager,Information Technology
+Engineering Manager,Other
 Retired but still active and interested in Optics Development and Metrology,Other
 Sales Consultant,Sales
 Senior Technical Consultant,Consulting
 Nurse Practitioner,Other
 Packhouse Managing consultant,Consulting
 Verwaltungsrat,Other
-Development Manager,Other
+Development Manager,Business Development
 Vertriebsspezialist,Sales
 Rechtsanwalt,Other
 HW-Developer BU Motion,Information Technology
@@ -180,16 +180,16 @@ Executive Assistant to the President,Administrative
 Partner,Other
 Webentwickler,Information Technology
 Director Construction & Engineering,Other
-Dekanatsrätin,Other
+Dekanatsrätin,Administrative
 Mitarbeiter Produktmanagement,Other
-Manager,Other
-Head of Development,Information Technology
+Manager,Consulting
+Head of Development,Other
 Manager,Other
 Chairman of the Board,Other
 Stammdatenmanager R&D ENGINEERING / R&D,Other
 aktiver Gesellschafter,Other
 Leiter Produktion / Mitinhaber,Other
-Senior Manager,Other
+Senior Manager,Business Development
 President,Other
 Senior Brand Manager,Marketing
 Leiter Instandhaltung,Other
@@ -204,10 +204,10 @@ Kipper -Spedition,Other
 Pedagoga,Other
 Behavioral Health Clinician,Other
 Web Developer,Information Technology
-Manager Custom Solutions,Consulting
+Manager Custom Solutions,Sales
 Responsable Développement Automotive,Business Development
 Projektmanager strat. BK E/E Infrastruktur,Project Management
-Responsable de projet marketing et communications,Marketing
+Responsable de projet marketing et communications,Project Management
 Vermittlung und Verrentung von Immobilien,Sales
 Approvisionneuse Bilingue,Purchasing
 Digital Product Owner,Information Technology
@@ -218,28 +218,28 @@ Chief Executive Officer,Other
 General Manager,Other
 Purser,Other
 Vorstandsvorsitzender,Other
-Associate,Other
-VP,Other
+Associate,Consulting
+VP,Human Resources
 Partner,Other
 Senior Vice President R&D,Other
 Industriereiniger,Other
 CEO,Other
 Senior Vice President Global Supplier Management,Purchasing
-Sr. International Agent,Sales
+Sr. International Agent,Customer Support
 Manager- Hr Ops & Talent Acquisition,Human Resources
 CEO,Other
 Production Engineer,Other
 Quality Engineering Manager,Other
 Vertriebsleiter,Sales
-Produktmanager,Other
-Partner und Inhaber,Other
+Produktmanager,Marketing
+Partner und Inhaber,Marketing
 Senior Advisor,Consulting
 Hockey Coach,Other
 Quality Assurance Manager / Quality Contract Managment / GMP Auditor,Other
 SVP Transformation & Strategy,Other
 "Director, Sales Unit Benelux",Sales
 Strategischer Einkäufer,Purchasing
-VP Market Intelligence,Marketing
+VP Market Intelligence,Business Development
 Director / Project implementation Manager,Project Management
 Aktionär,Other
 Werkstudent Facheinkauf Interieur,Purchasing
@@ -249,9 +249,9 @@ Chef,Other
 Geschäftsführer,Other
 General Manager,Other
 Spa Concierge,Customer Support
-Geschäftsführender Gesellschafter,Other
+Geschäftsführender Gesellschafter,Marketing
 Account-Manager,Sales
-Head of Digital Radio Design,Information Technology
+Head of Digital Radio Design,Other
 Assistent,Administrative
 Polizistin,Other
 Managing Partner,Other
@@ -261,7 +261,7 @@ Vorstand / CEO bei Eberhard AG,Other
 Projektingenieur,Project Management
 Managing Partner,Other
 Geschäftsführender Gesellschafter,Other
-SVP 3DS-Solutions CENIT Group,Other
+SVP 3DS-Solutions CENIT Group,Consulting
 Senior Vice President APAC,Other
 CEO Co-owner,Other
 Business Strategy Consultant,Consulting
@@ -269,21 +269,21 @@ Managing Director,Other
 Recreation Manager,Other
 Stiftungsrat,Other
 Projektplaner,Project Management
-Senior Manager,Other
+Senior Manager,Consulting
 Information Technology Specialist -ITCS,Information Technology
 Geschäftsführender Inhaber,Other
 Gebietsverkaufsleiterin Implantologie & Prothetik,Sales
 Vice President,Other
 Senior Vice President,Other
-Platin,Other
+Platin,Marketing
 Executive Partner Development Manager,Business Development
-Departementssekretär / Leiter Amt für Militär und Bevölkerungsschutz,Other
+Departementssekretär / Leiter Amt für Militär und Bevölkerungsschutz,Administrative
 CEO,Other
 Partner,Other
 Chief Executive Officer,Other
 Arbeitssuche,Other
-Managing Director,Other
-Head of Global Competence Center MO/BO/Acc Business Analysis,Other
+Managing Director,Consulting
+Head of Global Competence Center MO/BO/Acc Business Analysis,Business Development
 Alleiniger Vorstand,Other
 Senior Software Engineer,Information Technology
 Owner,Other
@@ -311,5 +311,5 @@ Consultant,Consulting
 General Counsel / Leiter Rechtsabteilung,Other
 Team Lead Business Services,Other
 CEO & Co-founder,Other
-Juristischer Berater,Other
+Juristischer Berater,Consulting
 "Leitung Personal, Finanzen, Einkauf, IT",Other
