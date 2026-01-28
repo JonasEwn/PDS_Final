@@ -1,5 +1,3 @@
-HF-profile: https://huggingface.co/Luu200
-
 # Predicting Domain and Seniority from LinkedIn Data
 
 This repository contains the code and data for the **Practical Data Science Final Project**.
