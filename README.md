@@ -19,9 +19,14 @@ The repository is organised according to the structure of the task description, 
 ```
 PDS_Final/
 ├── data/
-│   ├── raw/
-│   ├── processed/
-│   └── snapaddy_labels.csv
+│   ├── dep_PL.csv
+│   ├── department-v2.csv
+│   ├── highest_active_jobs.csv
+│   ├── labeled_not_annotated.csv
+│   ├── linkedin-cvs-annotated.json
+│   ├── linkedin-cvs-not-annotated.json
+│   ├── sen_PL.csv
+│   └── seniority-v2.csv
 │
 ├── ensemble/
 │   ├── department.ipynb
@@ -29,24 +34,29 @@ PDS_Final/
 │   └── plots/
 │
 ├── task_1_rule_based/
-│   ├── rule_based_domain.ipynb
-│   └── rule_based_seniority.ipynb
+│   └── rule-based.ipynb
 │
 ├── task_2_embeddings/
-│   ├── embedding_zero_shot_domain.ipynb
-│   └── embedding_zero_shot_seniority.ipynb
+│   └── embedding.ipynb
 │
 ├── task_3_finetuning/
-│   ├── finetune_domain.ipynb
-│   └── finetune_seniority.ipynb
+│   └── setfit/
+│       ├── dep_sf.ipynb
+│       └── sen_sf.ipynb
 │
 ├── task_4_programmatic_labeling/
-│   ├── pseudo_label_generation.ipynb
-│   └── supervised_training.ipynb
+│   ├── Department/
+│   │   └── dep_gem_api.ipynb
+│   └── Seniority/
+│       └── gem_api.ipynb
 │
 ├── task_6_feature_engineering/
-│   ├── feature_extraction.ipynb
-│   └── classical_ml_models.ipynb
+│   ├── plots/
+│   ├── preprocessing/
+│   ├── bow_department.ipynb
+│   ├── bow_seniority.ipynb
+│   ├── tf_idf_department.ipynb
+│   └── tf_idf_seniority.ipynb
 │
 └── README.md
 ```
