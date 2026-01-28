@@ -16,7 +16,7 @@ The repository is organised according to the structure of the task description, 
 
 ## Repository Structure
 
-'''
+```
 PDS_Final/
 ├── data/
 │   ├── raw/                         # Original LinkedIn CV data (JSON)
@@ -59,4 +59,4 @@ PDS_Final/
 │
 ├── requirements.txt
 └── README.md
-'''
+```
