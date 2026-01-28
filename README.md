@@ -1,9 +1,8 @@
 HF-profile: https://huggingface.co/Luu200
 
-
 # Predicting Domain and Seniority from LinkedIn Data
 
-This repository contains the code and data for the **Practical Data Science Final Project**.  
+This repository contains the code and data for the **Practical Data Science Final Project**.
 The goal in this assignmnet is to predict the **professional domain (department)** and **seniority level** of individuals based on LinkedIn CV data using machine learning approaches.
 
 The repository is organised according to the structure of the task description, with our different approaches categorised accordingly.
@@ -46,7 +45,7 @@ PDS_Final/
 │   └── Seniority/
 │       └── gem_api.ipynb
 │
-├── task_6_feature_engineering/
+├── task_6/
 │   ├── plots/
 │   ├── preprocessing/
 │   ├── bow_department.ipynb
